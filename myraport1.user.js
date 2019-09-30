@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         myraport1
 // @namespace    https://github.com/setyawan96/raport
-// @version      1.0
+// @version      1.1
 // @description  Hanya mempermudah guru
 // @author       Wawan
 // @homepageURL  https://github.com/setyawan96/raport
