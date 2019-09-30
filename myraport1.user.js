@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         myraport1
 // @namespace    https://github.com/setyawan96/raport
-// @version      1.1
+// @version      1.0
 // @description  Hanya mempermudah guru
 // @author       Wawan
 // @homepageURL  https://github.com/setyawan96/raport
-// @updateURL    https://github.com/setyawan96/raport/raw/master/myraport.user.js
-// @downloadURL  https://github.com/setyawan96/raport/raw/master/myraport.user.js
+// @updateURL    https://github.com/setyawan96/raport/raw/master/myraport1.user.js
+// @downloadURL  https://github.com/setyawan96/raport/raw/master/myraport1.user.js
 // @run-at       document-body
 // @match        http://192.168.0.102*
 // @match        http://192.168.100.225*
