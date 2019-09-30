@@ -7,6 +7,7 @@
 // @homepageURL  https://github.com/setyawan96/raport
 // @updateURL    https://github.com/setyawan96/raport/raw/master/myraport.user.js
 // @downloadURL  https://github.com/setyawan96/raport/raw/master/myraport.user.js
+// @run-at       document-body
 // @match        http://192.168.0.102*
 // @match        http://192.168.100.225*
 // @include      http://192.168.0.102*
