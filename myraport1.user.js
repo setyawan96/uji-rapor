@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         myraport1
-// @namespace    https://gist.github.com/setyawan96/2ce69abf8d18291e9f10a854cc173525
+// @namespace    https://github.com/setyawan96/raport
 // @version      1.1
 // @description  Hanya mempermudah guru
 // @author       Wawan
