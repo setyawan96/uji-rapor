@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MyRaportBeta
 // @namespace    https://github.com/setyawan96/raport
-// @version      1.0
+// @version      1.1
 // @description  Hanya usaha untuk mempermudah guru
 // @author       Wawan
 // @homepageURL  https://github.com/setyawan96/raport
@@ -134,11 +134,13 @@ var injscp2 = document.createElement('script');
 //Awal cek setting dan cek data localStorage
 var cdlocal = localStorage.getItem("setdes");
 var ekskul = document.getElementsByName("ekskul[]");
-if (cdlocal == null) {localStorage.setItem("setdes", "auto");}
-if (cdlocal !== "auto") {
-    document.getElementsByName("pilihan-cus")[1].checked="true";
-    } else {
+if (cdlocal == null) {
+    localStorage.setItem("setdes", "auto");
     document.getElementsByName("pilihan-cus")[0].checked="true";
+    } else if (cdlocal == "auto") {
+    document.getElementsByName("pilihan-cus")[0].checked="true";
+    } else if (cdlocal == "manual"){
+    document.getElementsByName("pilihan-cus")[1].checked="true";
     }
 //Injek onchange spiritual
 var att1 = document.createAttribute("onchange");
