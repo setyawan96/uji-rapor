@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         MyRaportBeta
-// @namespace    https://github.com/setyawan96/raport
+// @namespace    https://github.com/setyawan96/uji-rapor
 // @version      1.1
 // @description  Hanya usaha untuk mempermudah guru
 // @author       Wawan
-// @homepageURL  https://github.com/setyawan96/raport
-// @updateURL    https://github.com/setyawan96/raport/raw/master/MyRaportBeta.user.js
-// @downloadURL  https://github.com/setyawan96/raport/raw/master/MyRaportBeta.user.js
+// @homepageURL  https://github.com/setyawan96/uji-rapor
+// @updateURL    https://github.com/setyawan96/uji-rapor/raw/master/MyRaportBeta.user.js
+// @downloadURL  https://github.com/setyawan96/uji-rapor/raw/master/MyRaportBeta.user.js
 // @run-at       document-body
 // @match        http://192.168.0.102*
 // @match        http://192.168.100.225*
