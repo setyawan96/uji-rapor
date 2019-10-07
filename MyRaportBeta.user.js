@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MyRaportBeta
 // @namespace    https://github.com/setyawan96/uji-rapor
-// @version      1.1
+// @version      1.2
 // @description  Hanya usaha untuk mempermudah guru
 // @author       Wawan
 // @homepageURL  https://github.com/setyawan96/uji-rapor
