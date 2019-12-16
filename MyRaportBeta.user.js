@@ -10,8 +10,10 @@
 // @run-at       document-body
 // @match        http://192.168.0.102*
 // @match        http://192.168.100.225*
+// @match        http://192.168.100.224*
 // @include      http://192.168.0.102*
 // @include      http://192.168.100.225*
+// @include      http://192.168.100.224*
 // @grant        none
 // ==/UserScript==
 
@@ -31,11 +33,14 @@ var cocok1 = "http://192.168.0.102/guru/siswa";
 var cocok2 = "http://192.168.100.225/guru/siswa";
 var cocok3 = "http://192.168.0.102/guru/siswa/siswa_input_rapor/";
 var cocok4 = "http://192.168.100.225/guru/siswa/siswa_input_rapor/";
+var cocok5 = "http://192.168.100.224/guru/siswa";
+var cocok6 = "http://192.168.100.224/guru/siswa/siswa_input_rapor/";
 //isi script per url (dicocokkan)
 switch(banding) {
 //pembanding pertama
     case cocok1:
     case cocok2:
+    case cocok5:
 
        //get tag elment
        var tamb = document.getElementsByTagName("tr");
@@ -54,6 +59,7 @@ switch(banding) {
 //pembanding kedua
     case cocok3:
     case cocok4:
+    case cocok6:
 
 /*****KUMPULAN VAR INJECT*****/
 /*****KUMPULAN VAR INJECT*****/
