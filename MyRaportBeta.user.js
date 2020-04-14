@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         MyRaportBeta
 // @namespace    https://github.com/setyawan96/uji-rapor
-// @version      1.3
-// @description  Hanya usaha untuk mempermudah guru
+// @version      1.4
+// @description  Hanya usaha untuk mempermudah guru EDISI WFH
 // @author       Wawan
 // @homepageURL  https://github.com/setyawan96/uji-rapor
 // @updateURL    https://github.com/setyawan96/uji-rapor/raw/master/MyRaportBeta.user.js
@@ -11,9 +11,11 @@
 // @match        http://192.168.0.102*
 // @match        http://192.168.100.225*
 // @match        http://192.168.100.224*
+// @match        http://*ngrok.io*
 // @include      http://192.168.0.102*
 // @include      http://192.168.100.225*
 // @include      http://192.168.100.224*
+// @include      http://*ngrok.io*
 // @grant        none
 // ==/UserScript==
 
