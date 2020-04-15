@@ -1,21 +1,21 @@
 // ==UserScript==
 // @name         MyRaportBeta
 // @namespace    https://github.com/setyawan96/uji-rapor
-// @version      1.4
-// @description  Hanya usaha untuk mempermudah guru EDISI WFH
+// @version      1.5
+// @description  EDISI WFH Hanya usaha untuk mempermudah guru 
 // @author       Wawan
 // @homepageURL  https://github.com/setyawan96/uji-rapor
 // @updateURL    https://github.com/setyawan96/uji-rapor/raw/master/MyRaportBeta.user.js
 // @downloadURL  https://github.com/setyawan96/uji-rapor/raw/master/MyRaportBeta.user.js
 // @run-at       document-body
-// @match        http://192.168.0.102*
-// @match        http://192.168.100.225*
-// @match        http://192.168.100.224*
-// @match        http://*ngrok.io*
-// @include      http://192.168.0.102*
-// @include      http://192.168.100.225*
-// @include      http://192.168.100.224*
-// @include      http://*ngrok.io*
+// @match        http://192.168.0.102/guru/siswa*
+// @match        http://192.168.100.225/guru/siswa*
+// @match        http://192.168.100.224/guru/siswa*
+// @match        http://*ngrok.io/guru/siswa*
+// @include      http://192.168.0.102/guru/siswa*
+// @include      http://192.168.100.225/guru/siswa*
+// @include      http://192.168.100.224/guru/siswa*
+// @include      http://*ngrok.io/guru/siswa*
 // @grant        none
 // ==/UserScript==
 
@@ -23,26 +23,20 @@
 'use strict';
 //get url user
 var link = window.location.href;
-var lban = link.length;
-if (lban>40){
-    var banding = link.slice(0, -32);
+if (link.match("guru/siswa/siswa_input_rapor/")){
+    var banding = "guru/siswa/siswa_input_rapor/";
 } else {
-    var banding = link;
+    var banding = "guru/siswa";
 }
 
 //set url pembending nya
-var cocok1 = "http://192.168.0.102/guru/siswa";
-var cocok2 = "http://192.168.100.225/guru/siswa";
-var cocok3 = "http://192.168.0.102/guru/siswa/siswa_input_rapor/";
-var cocok4 = "http://192.168.100.225/guru/siswa/siswa_input_rapor/";
-var cocok5 = "http://192.168.100.224/guru/siswa";
-var cocok6 = "http://192.168.100.224/guru/siswa/siswa_input_rapor/";
+var cocok1 = "/guru/siswa";
+var cocok2 = "guru/siswa/siswa_input_rapor/";
+
 //isi script per url (dicocokkan)
 switch(banding) {
 //pembanding pertama
     case cocok1:
-    case cocok2:
-    case cocok5:
 
        //get tag elment
        var tamb = document.getElementsByTagName("tr");
@@ -59,9 +53,7 @@ switch(banding) {
 
        break;
 //pembanding kedua
-    case cocok3:
-    case cocok4:
-    case cocok6:
+    case cocok2:
 
 /*****KUMPULAN VAR INJECT*****/
 /*****KUMPULAN VAR INJECT*****/
