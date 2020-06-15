@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MyRaportBeta
 // @namespace    https://github.com/setyawan96/uji-rapor
-// @version      1.5
+// @version      1.6
 // @description  EDISI WFH Hanya usaha untuk mempermudah guru 
 // @author       Wawan
 // @homepageURL  https://github.com/setyawan96/uji-rapor
@@ -30,7 +30,7 @@ if (link.match("guru/siswa/siswa_input_rapor/")){
 }
 
 //set url pembending nya
-var cocok1 = "/guru/siswa";
+var cocok1 = "guru/siswa";
 var cocok2 = "guru/siswa/siswa_input_rapor/";
 
 //isi script per url (dicocokkan)
